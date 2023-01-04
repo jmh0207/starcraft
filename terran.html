@@ -5,46 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starcraft-Terran</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+        h1 {
+            font-size:250%;
+            text-align: center;
+            border-bottom:1px solid gray;
+            margin:0;
+            padding:20px;
+        }
+        body {
+            margin:0;
+            background-color: #1f2023;
+            color: #ddd;
+        }
+        #main ul {
+            border-right:1px solid gray;
+            width:100px;
+            margin:0;
+            padding:35px;
+            padding-right:25px;
+        }
+        #main {
+            display:grid;
+            grid-template-columns:150px 0 1fr;
+            margin-bottom:0;
+            border-bottom:1px solid gray;
+        }
+        .ex {
+            padding-left:50px;
+            padding-top:15px;
+            padding:50px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div id="header">
-        <h1><strong><a href="index.html">스타크래프트</a></strong></h1>
-    </div>
-    <div id="tribe">
-        <ul>
-            <li><a href="zerg.html">저그</a></li>
-            <li><a href="terran.html">테란</a></li>
-            <li><a href="protoss.html">프로토스</a></li>
-        </ul>
-    </div>
-    <br>
-    <br>
-    <div id="image">
-        <img src="https://w.namu.la/s/2e73810d67fdf13ed367ae6ecb6ffe79148afdf7fb575833535514ec9246cd2488eb7fcb10d4221fc6ba55e661eb71c27bd9349fc5363936e434fe417dd4c0aae7866c3083404973599d9327ca206914bc066ec0da5b83af8725d707e76a5600de36aeb4a77d607e45fee68fcf663aef" alt="전열을 갖추는 테란 해병대원들과 핵 폭발 배경">
+    <div class="header">
+        <h1><strong><a href="index.html" style="color: #ddd;">스타크래프트</a></strong></h1>
     </div>
     <div id="main">
-        <h2>테란</h2>
-        <p>
-            가장 낮은 기술력과 허약한 신체 능력, 다른 종족에 비해 밀리는 사이오닉 능력 때문에 게임 안에서의 밸런스와는 반대로 설정상 코프룰루 구역 내의 3종족 중엔 가장 약하여 동네북 이미지로 굳어버려 대체로 깨지는 것이 다반사인데, 
-            이런 악조건들이 산재하고 있음에도 프로토스나 저그보다 동족끼리 싸우는 경우가 훨씬 많다. 하지만 노바 비밀 작전 시점에서는 탈다림의 죽음의 함대조차 격퇴할 정도로 외계 종족과의 전쟁에 능숙해진다.
-            게임 외적으로 인류 세력인만큼 가장 많은 캐릭터가 등장하며 세계관 정립이 정교하게 잘 된 종족이기도하다.
+        <ul>
+            <li><a href="zerg.html" style="color: #ddd;">저그</a></li>
+            <li><a href="terran.html" style="color:skyblue; text-decoration:underline">테란</a></li>
+            <li><a href="protoss.html" style="color: #ddd;">프로토스</a></li>
+        </ul>
+    <br>
+    <br>
+        <div class="ex">
+            <img src="https://w.namu.la/s/2e73810d67fdf13ed367ae6ecb6ffe79148afdf7fb575833535514ec9246cd2488eb7fcb10d4221fc6ba55e661eb71c27bd9349fc5363936e434fe417dd4c0aae7866c3083404973599d9327ca206914bc066ec0da5b83af8725d707e76a5600de36aeb4a77d607e45fee68fcf663aef" alt="전열을 갖추는 테란 해병대원들과 핵 폭발 배경">
+            <h2>테란</h2>
+            <p>
+                가장 낮은 기술력과 허약한 신체 능력, 다른 종족에 비해 밀리는 사이오닉 능력 때문에 게임 안에서의 밸런스와는 반대로 설정상 코프룰루 구역 내의 3종족 중엔 가장 약하여 동네북 이미지로 굳어버려 대체로 깨지는 것이 다반사인데, 
+                이런 악조건들이 산재하고 있음에도 프로토스나 저그보다 동족끼리 싸우는 경우가 훨씬 많다. 하지만 노바 비밀 작전 시점에서는 탈다림의 죽음의 함대조차 격퇴할 정도로 외계 종족과의 전쟁에 능숙해진다.
+                게임 외적으로 인류 세력인만큼 가장 많은 캐릭터가 등장하며 세계관 정립이 정교하게 잘 된 종족이기도하다.
+                <br><br>
+                다만 코프룰루 구역의 테란에 비해 지구의 UED, 다시 말해 코프룰루 구역으로 쫒겨나 세력을 꾸리고 거기서 사는, 본작에 주로 나오는 테란 말고, 
+                우리가 아는 태양계의 지구를 본거지로 하는 인류의 본 세력은 상당히 강력하다고 묘사된다. 당장 종족 전쟁에서 테란에 추가된 의무관, 발키리, 골리앗의 카론부스터 업그레이드(사업) 등은 
+                설정상 테란이 아닌 UED의 기술력으로 개발되거나 탄생했다. 지구 전체 전력에 비하면 극소수 전력인 원정 함대만으로도 잠시나마 테란 자치령, 프로토스, 저그와 함께 세력 균형을 유지했을 정도. 
+                다만 유령으로 대표되는 사이오닉 관련 능력과 기술에 대해서는 떨어진다.
+                그래도 이들은 종족 전쟁 당시 저그와 프로토스도 한 때 애를 먹은 적이 있으며, 본성인 지구로 저 2종족이 침공한다면 테란 자치령과는 달리 제대로 응전을 할 수 있을만큼 강력한 무력을 갖춘 세력이다. 
+                다만, 설정이 확실하지 않기 때문에 '방어전이 가능하다'인지 '승리할 수 있다'인지 확실하지는 않다.
+
+            </p>
             <br><br>
-            다만 코프룰루 구역의 테란에 비해 지구의 UED, 다시 말해 코프룰루 구역으로 쫒겨나 세력을 꾸리고 거기서 사는, 본작에 주로 나오는 테란 말고, 
-            우리가 아는 태양계의 지구를 본거지로 하는 인류의 본 세력은 상당히 강력하다고 묘사된다. 당장 종족 전쟁에서 테란에 추가된 의무관, 발키리, 골리앗의 카론부스터 업그레이드(사업) 등은 
-            설정상 테란이 아닌 UED의 기술력으로 개발되거나 탄생했다. 지구 전체 전력에 비하면 극소수 전력인 원정 함대만으로도 잠시나마 테란 자치령, 프로토스, 저그와 함께 세력 균형을 유지했을 정도. 
-            다만 유령으로 대표되는 사이오닉 관련 능력과 기술에 대해서는 떨어진다.
-            그래도 이들은 종족 전쟁 당시 저그와 프로토스도 한 때 애를 먹은 적이 있으며, 본성인 지구로 저 2종족이 침공한다면 테란 자치령과는 달리 제대로 응전을 할 수 있을만큼 강력한 무력을 갖춘 세력이다. 
-            다만, 설정이 확실하지 않기 때문에 '방어전이 가능하다'인지 '승리할 수 있다'인지 확실하지는 않다.
+            <h3>테란 시네마틱 영상</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GthQOpASs5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <h3>테란 종족 소개</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Z6dDa-C49pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        </p>
-        <br><br>
-        <h3>테란 시네마틱 영상</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GthQOpASs5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <h3>테란 종족 소개</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Z6dDa-C49pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        </div>
     </div>
+    <br><br><br>
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://starcraft-3.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     
 </body>
 </html>

@@ -5,46 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starcraft-Zerg</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+        h1 {
+            font-size:250%;
+            text-align: center;
+            border-bottom:1px solid gray;
+            margin:0;
+            padding:20px;
+        }
+        body {
+            margin:0;
+            background-color: #1f2023;
+            color: #ddd;
+        }
+        #main ul {
+            border-right:1px solid gray;
+            width:100px;
+            margin:0;
+            padding:35px;
+            padding-right:25px;
+        }
+        #main {
+            display:grid;
+            grid-template-columns:150px 0 1fr;
+            margin-bottom:0;
+            border-bottom:1px solid gray;
+        }
+        .ex {
+            padding-left:50px;
+            padding-top:15px;
+            padding:50px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div id="header">
-        <h1><strong><a href="index.html">스타크래프트</a></strong></h1>
-    </div>
-    <div id="tribe">
-        <ul>
-            <li><a href="zerg.html">저그</a></li>
-            <li><a href="terran.html">테란</a></li>
-            <li><a href="protoss.html">프로토스</a></li>
-        </ul>
-    </div>
-    <br>
-    <br>
-    <div id="image">
-        <img src="https://w.namu.la/s/9a3de405c3337115f8aa0531dba8a88d94285f19e705a3016e74669e0543b230959adaa7dfb908a5572adadab160d078d8bfcb9674edaa7bf9fb16d483d3798cb2a5433993571560a04ab205a8e190d362508abd5b6953bdfc21acd853183b74cf345148e8b71116acb05b9eb256864a" alt="돌격하는 저그 군단의 선봉대">
+    <div class="header">
+        <h1><strong><a href="index.html" style="color: #ddd;">스타크래프트</a></strong></h1>
     </div>
     <div id="main">
-        <h2>저그</h2>
-        <p>
-            젤나가(Xel'naga)가 창조한 두 번째 생명체이자 스타크래프트 세계관의 공공의 적.<br>
-            <br>
-            종족 전체가 하나의 종인 테란이나 프로토스와 달리, 소수의 지성체를 중심으로 다른 종족들을 감염, 동화시키는 과정으로 발전한 종족이기에 개체 별로 외형이 천차만별이다. 
-            때문에 실질적인 외형은 저그에게 동화되기 이전의 종족의 외형을 따라가는 편이지만, 기본적으로 전투와 살상을 위해 진화한 저그의 특성상 날카로운 발톱이나 갑각, 외피를 발달시키는 편이며, 
-            전반적으로 곤충이나 절지동물, 갑각류의 외형에서 따온 종들이 많다. 그리고 하나같이 머리가 몸에 비해 심각하게 작은 편으로, 소수의 군체의식의 지휘를 받는 방식으로 행동하는 저그의 특성상 뇌를 발달시킬 필요가 없었기 때문인 것으로 보인다.<br>
-            <br>
-            광물과 베스핀 가스를 직접적인 에너지원으로 쓰지만 날 것 그대로 씹거나 빨아들이지 않고 저그가 바로 흡수, 
-            섭취 가능한 유기물을 빨아들이거나 그렇게 변환시키는 점막(Creep)에서 섭취한다. 그럼에도 저그들은 점막 없이 오랫동안 생존할 수 있는데, 
-            바로 다른 생명체(동족 포함)를 뜯어먹는 것.[10] 히드라리스크를 비롯한 다른 저그 생명체에게 '입'이 있는 이유다. 
-            물론 단순한 에너지원 외에도 변이를 촉진하는 물질로 쓰기도 한다.
-
-        </p>
+        <ul>
+            <li><a href="zerg.html" style="color:skyblue; text-decoration:underline">저그</a></li>
+            <li><a href="terran.html" style="color: #ddd;">테란</a></li>
+            <li><a href="protoss.html" style="color: #ddd;">프로토스</a></li>
+        </ul>
         <br><br>
-        <h3>저그 시네마틱 영상</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qStRYrJUMrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <h3>저그 종족 소개</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/pQa7QTHb5tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="ex">
+            <img src="https://w.namu.la/s/9a3de405c3337115f8aa0531dba8a88d94285f19e705a3016e74669e0543b230959adaa7dfb908a5572adadab160d078d8bfcb9674edaa7bf9fb16d483d3798cb2a5433993571560a04ab205a8e190d362508abd5b6953bdfc21acd853183b74cf345148e8b71116acb05b9eb256864a" alt="돌격하는 저그 군단의 선봉대">
+                <h2>저그</h2>
+                <p>
+                    젤나가(Xel'naga)가 창조한 두 번째 생명체이자 스타크래프트 세계관의 공공의 적.<br>
+                    <br>
+                    종족 전체가 하나의 종인 테란이나 프로토스와 달리, 소수의 지성체를 중심으로 다른 종족들을 감염, 동화시키는 과정으로 발전한 종족이기에 개체 별로 외형이 천차만별이다. 
+                    때문에 실질적인 외형은 저그에게 동화되기 이전의 종족의 외형을 따라가는 편이지만, 기본적으로 전투와 살상을 위해 진화한 저그의 특성상 날카로운 발톱이나 갑각, 외피를 발달시키는 편이며, 
+                    전반적으로 곤충이나 절지동물, 갑각류의 외형에서 따온 종들이 많다. 그리고 하나같이 머리가 몸에 비해 심각하게 작은 편으로, 소수의 군체의식의 지휘를 받는 방식으로 행동하는 저그의 특성상 뇌를 발달시킬 필요가 없었기 때문인 것으로 보인다.<br>
+                    <br>
+                    광물과 베스핀 가스를 직접적인 에너지원으로 쓰지만 날 것 그대로 씹거나 빨아들이지 않고 저그가 바로 흡수, 
+                    섭취 가능한 유기물을 빨아들이거나 그렇게 변환시키는 점막(Creep)에서 섭취한다. 그럼에도 저그들은 점막 없이 오랫동안 생존할 수 있는데, 
+                    바로 다른 생명체(동족 포함)를 뜯어먹는 것. 히드라리스크를 비롯한 다른 저그 생명체에게 '입'이 있는 이유다. 
+                    물론 단순한 에너지원 외에도 변이를 촉진하는 물질로 쓰기도 한다.
 
+                </p>
+                <br><br>
+                <h3>저그 시네마틱 영상</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qStRYrJUMrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <h3>저그 종족 소개</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pQa7QTHb5tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </div>
     </div>
+    <br><br><br>
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://starcraft-3.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     
 </body>
 </html>
