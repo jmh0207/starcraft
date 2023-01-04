@@ -5,6 +5,10 @@ body {
 }
 a {
     text-decoration: none;
+    color: #ddd;
+}
+a:hover {
+    color:plum; 
 }
 h1 {
     font-size:250%;
@@ -18,13 +22,14 @@ h1 {
     width:100px;
     margin:0;
     padding:35px;
-    padding-right:25px;
+    padding-right:25px
 }
 #main {
     display:grid;
     grid-template-columns:150px 0 1fr;
     margin-bottom:0;
     border-bottom:1px solid gray;
+    overflow-x:auto;
 }
 .ex {
     padding:50px;
